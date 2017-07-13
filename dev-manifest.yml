@@ -1,0 +1,8 @@
+---
+applications:
+- name: dev-clinical-desc
+  host: dev-clinical-desc
+  memory: 256M
+  services:
+  - clinical-desc-conversation
+  - dev-clinical-desc-db
